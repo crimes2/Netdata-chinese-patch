@@ -2,14 +2,14 @@
 💡一键自动安装脚本适用于未安装 Netdata
 
 ```bash
-bash <(curl -Ss https://raw.githubusercontent.com/DX-Kevin/Netdata-chinese-patch/main/install-Netdata-chinese.sh)
+bash <(curl -Ss https://raw.githubusercontent.com/crimes2/Netdata-chinese-patch/main/install-Netdata-chinese.sh)
 ```
 安装完成后需要添加19999端口到例外（允许19999端口访问）
 ## Netdata 中文简体版汉化补丁一键自动安装脚本
 💡汉化脚本适用于已安装英文原版 Netdata
 
 ```bash
-bash <(curl -Ss https://raw.githubusercontent.com/DX-Kevin/Netdata-chinese-patch/main/install-Netdata-chinese-patch.sh)
+bash <(curl -Ss https://raw.githubusercontent.com/crimes2/Netdata-chinese-patch/main/install-Netdata-chinese-patch.sh)
 ```
 ## Netdata 中文简体版汉化补丁手动安装方法
 - 1.先备份或者重命名下面四个文件
