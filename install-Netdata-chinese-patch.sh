@@ -4,7 +4,7 @@ D="dashboard.js"
 DI="dashboard_info.js"
 I="index.html"
 M="main.js"
-C="/opt/netdata/web/"
+C="/opt/netdata/usr/share/netdata/web"
 mv $C$DI $C$DI.bk&&mv $C$D $C$D.bk&&mv $C$M $C$M.bk&&mv $C$I $C$I.bk
 curl -q -sSL --connect-timeout 10 --retry 3 --output $C$D $DL$D
 curl -q -sSL --connect-timeout 10 --retry 3 --output $C$DI $DL$DI
